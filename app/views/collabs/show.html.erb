@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @collab.question %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @collab.answer %>
+</p>
+
+<%= link_to 'Edit', edit_collab_path(@collab) %> |
+<%= link_to 'Back', collabs_path %>

@@ -1,0 +1,29 @@
+<h1>Listing questions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Answer</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @collabs.each do |collab| %>
+      <tr>
+        <td><%= collab.question %></td>
+        <td><%= collab.answer %></td>
+        <td><%= link_to 'Show', collab %></td>
+        <td><%= link_to 'Edit', edit_collab_path(collab) %></td>
+        <td><%= link_to 'Destroy', collab, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Question', new_collab_path %>
