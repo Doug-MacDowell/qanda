@@ -1,6 +1,6 @@
 # Collaborate - Question & Answer Site
 
-This is a basic collaboration site built using Rails 4.0.2.
+This is a basic collaboration site built using Rails 4.0.2, Devise, and Foundation 5.
 
 ### Author:  Doug MacDowell
 
@@ -10,17 +10,13 @@ TBD - *This is a work in progress for a Rails programming class.*
 
 ## Usage
 
-The __All Questions__ link will take you to a listing of all submitted questions.
+To view the questions and answers, users must first register by clicking the __Sign Up__ button in the title bar.
 
-For logged-in users, the __New Question__ link to can be used to add a question.
+Once logged-in, the __Go To Questions__ button will take the user to the Listing of current questions and answers. From there, a user can add a question, edit an existing question or answer, and delete questions.
 
-### Link to screenshot of passing Rails Authentication tests:
+### Screenshot showing a Listing of questions and answers:
 
-TBD
-
-### Link to screenshot of Questions Listing showing current questions:
-
-TBD
+![Alt text](/app/assets/images/Q&A_listing_2014-03-04.png "Q&A Listing")
 
 ### Contributing
 
