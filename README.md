@@ -16,7 +16,7 @@ Once logged-in, the __Go To Questions__ button will take the user to the Listing
 
 ### Screenshot showing a Listing of questions and answers:
 
-![alt tag](https://raw.github.com/Doug-MacDowell/qanda/tree/master/app/assets/images/Q&A_listing_2014-03-04.png)
+![](https://raw.github.com/Doug-MacDowell/qanda/tree/master/app/assets/images/Q&A_listing_2014-03-04.png)
 
 ### Contributing
 
