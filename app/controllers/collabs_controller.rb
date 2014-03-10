@@ -42,8 +42,7 @@ class CollabsController < ApplicationController
   def update
     respond_to do |format|
       if @collab.update(collab_params)
-   #  if @collab.update_attributes(params[:collab])
-   #     @collab.users |= [current_user]
+        @collab.users |= [current_user]
         format.html { redirect_to @collab, notice: 'Question was successfully updated.' }
         format.json { head :no_content }
       else
